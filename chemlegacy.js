@@ -22,7 +22,7 @@ func:function()
 
 	//Then we augment the base data to incorporate our new resources :
 		//adding hot pepper as something that can be gathered from grass
-	//G.getDict('water').res['gather']['saltwater']=3;
+	G.getRes("saltwater").gainedBy[1] = "Gatherer"
 		//adding a new mode to artisans so they can make hot sauce from hot peppers
 
 	//Then we add a new technology which is required by the artisans to gain access to the "hot sauce" mode :
