@@ -3,7 +3,7 @@ name:'chemlegacy',
 author:'matthyno',
 desc:'Chemistry mod for NEL.',
 engineVersion:1,
-manifest:'modManifest.js',
+manifest:'https://raw.githack.com/MatthyPlayz/ChemLegacy/master/manifest.js',
 requires:['Default dataset*'],
 sheets:{'data':'https://raw.githack.com/MatthyPlayz/ChemLegacy/master/ChemlegacySheet.png'},//custom stylesheet (note : broken in IE and Edge for the time being)
 func:function()
