@@ -16,8 +16,7 @@ func:function()
 		desc:'[saltwater] is gained from @[gatherer]s, who gather salt water from lakes and ponds. [saltwater] is not very healthy, and dehydrates you quickly.',
 		icon:[0,0,'data'],
 		turnToByContext:{'eat':{'health':-1,'happiness':0.03},'decay':{'spoiled food':0.5}},//this basically translates to : "when eaten, generate some health and happiness; when rotting, turn into either nothing or some spoiled food"
-		partOf:'Crafting & Construction',
-		category:'Crafting & Construction',
+		partOf:'advanced building materials'
 	});
 
 	//Then we augment the base data to incorporate our new resources :
