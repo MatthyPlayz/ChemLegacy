@@ -12,8 +12,7 @@ func:function()
 		name:'saltwater',
 		desc:'[saltwater] is gained from @[gatherer]s, who gather salt water from lakes and ponds. [saltwater] is not very healthy, and dehydrates you quickly.',
 		icon:[0,0,'data'],
-		turnToByContext:{'eat':{'health':-1,'happiness':0.03},'decay':{'spoiled food':0.5}},
-		partOf:'advanced building materials'
+		turnToByContext:{'eat':{'health':-1,'happiness':0.03},'decay':{'spoiled food':0.5}}
 	});
 	G.getRes("saltwater").gainedBy[1] = "Gatherer"
 	new G.Tech({
