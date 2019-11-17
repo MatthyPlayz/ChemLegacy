@@ -22,14 +22,14 @@ func:function()
 
 	//Then we augment the base data to incorporate our new resources :
 		//adding hot pepper as something that can be gathered from grass
-	G.getDict('water').res['gather']['saltwater']=3;
+	//G.getDict('water').res['gather']['saltwater']=3;
 		//adding a new mode to artisans so they can make hot sauce from hot peppers
 
 	//Then we add a new technology which is required by the artisans to gain access to the "hot sauce" mode :
 	new G.Tech({
 		name:'gathering saltwater',
 		desc:'@[gatherer]s can be gathered from lakes or ponds.\nAlso starts the Hydrochloric Acid quest chain in the ChemLegacy mod.',
-		icon:[0,0,'spicySheet'],
+		icon:[0,0,'data'],
 		cost:{'insight':20}
 	});
 
