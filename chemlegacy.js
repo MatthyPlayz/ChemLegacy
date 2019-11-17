@@ -15,7 +15,7 @@ func:function()
 		turnToByContext:{'eat':{'health':-1,'happiness':0.03},'decay':{'spoiled food':0.5}},
 		category: 'food'
 	});
-	G.getRes("saltwater").gainedBy[1] = "Gatherer"
+	G.getRes("saltwater").gainedBy[0] = "Gatherer"
 	new G.Tech({
 		name:'gathering saltwater',
 		desc:'@[gatherer]s can be gathered from lakes or ponds.\nAlso starts the Hydrochloric Acid quest chain in the ChemLegacy mod.',
