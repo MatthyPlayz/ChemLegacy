@@ -8,7 +8,7 @@ requires:['Default dataset*'],
 sheets:{'data':'https://raw.githack.com/MatthyPlayz/ChemLegacy/master/ChemlegacySheet.png'},//custom stylesheet (note : broken in IE and Edge for the time being)
 func:function()
 {	
-	var saltwater = new G.Res({
+	new G.Res({
 		name:'saltwater',
 		desc:'[saltwater] is gained from @[gatherer]s, who gather salt water from lakes and ponds. [saltwater] is not very healthy, and dehydrates you quickly.',
 		icon:[0,0,'data'],
