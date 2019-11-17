@@ -5,7 +5,7 @@ desc:'Chemistry mod for NEL.',
 engineVersion:1,
 manifest:'modManifest.js',
 requires:['Default dataset*'],
-sheets:{'data':'https://github.com/MatthyPlayz/ChemLegacy/blob/master/ChemlegacySheet.png?raw=true'},//custom stylesheet (note : broken in IE and Edge for the time being)
+sheets:{'data':'https://raw.githack.com/MatthyPlayz/ChemLegacy/master/ChemlegacySheet.png'},//custom stylesheet (note : broken in IE and Edge for the time being)
 func:function()
 {
 	//The idea in this simple example mod is to add a few elements focused around hot sauce, because hot sauce is great and I use that stuff everywhere.
